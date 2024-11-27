@@ -2,22 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 
-h1{
+h1, h2{
     color: saddlebrown;
     text-decoration: underline;
 }
-section{
-    padding: 5rem 6% 5rem;
-}
-/* .welcome{
-   padding-top: 2rem;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 0 50px;
-   gap: 40px;
-   margin-bottom: 100px;
-} */
 
 img{
     border-radius: 50%;
@@ -32,9 +20,7 @@ img{
     
 }
 
-.image{
-    marg
-}
+
 
 
 
