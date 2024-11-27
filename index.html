@@ -4,17 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Denoe Assignment1</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: var(--background-color);
+            color: var(--text-color);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        :root{
+            --text-color: #1a1c20;
+            --link-color: #4a76ee;
+            --background-color: #eeeff1;
+        }
+        a{
+            text-decoration: none;
+            color: var(--link-color);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Hello and welcome to my first website</h1>
         <nav>
            <a href="">about</a> || <a href="">contact</a>
+           <img src="sf.png" alt="" width="240px" class="image">
         </nav>
     </header>
     <main>
-        <section>
-            <article>
+        <section class="welcome">
+            <article >
                 <p>Welcome all to my very first site. This site has no difference to the one developed by Tim's Berner's which you can check it out <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">here.
                 </a></p>
                 <p>This being the very first website and comparing it to today's website i really do bvelieve in progress. An example of such an inspiring website to a developer is <a href="https://www.whatismissing.org/" target="_blank">this one</a> a one of a kind website. Looking forward at the end of the training to develop such a website.</p>
@@ -22,8 +42,8 @@
         </section>
         <hr>
         <section>
-            <h2>About Dennis</h2>
-            <p>Dennis is a passionate programmer who's looking to dive deep into tech. Kickstarting off with webdevelopment he aims to be one of the best front-end and back-end develpoers Africa has to offer. With the knowledge and skills gained from this training it's a major milestone for me and they are playing a major. This being the very first site bit's somehow boring but i believe at the end of the 16 weeks course a good-looking rensponsive website is gonna go live.</p>
+            <h2 style=" color: saddlebrown; text-decoration: line-through;">About Dennis</h2>
+            <p>Dennis is a passionate programmer who's looking to dive deep into tech. Kickstarting off with webdevelopment he aims to be one of the best front-end and back-end develpoers Africa has to offer. With the knowledge and skills gained from this training it's a major milestone for me and they are playing a major. This being the very first site bit's somehow boring but i believe at the end of the 8 weeks course a good-looking rensponsive website is gonna go live.</p>
         </section>
     </main>
 </body>

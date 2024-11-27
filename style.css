@@ -1,0 +1,77 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    color: saddlebrown;
+    text-decoration: underline;
+}
+section{
+    padding: 5rem 6% 5rem;
+}
+/* .welcome{
+   padding-top: 2rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 50px;
+   gap: 40px;
+   margin-bottom: 100px;
+} */
+
+img{
+    border-radius: 50%;
+    margin-bottom: 50px;
+    left: auto;
+    right: auto;
+    /* centering an image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+.image{
+    marg
+}
+
+
+
+@media (min-width: 475px){
+
+
+}
+
+
+
+@media (min-width: 600px){
+
+}
+
+
+
+@media (min-width: 768px){
+
+}
+
+
+
+@media (min-width: 1024px){
+
+}
+
+
+
+@media (min-width: 1280px){
+
+}
+
+
+
+@media (min-width: 1536px){
+
+   
+
+}
+
